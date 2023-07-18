@@ -14,7 +14,7 @@ npm run migrate
 npm start
 ```
 
-# Фронт:
+# Фронтенд:
 Sass, MIT, https://www.npmjs.com/package/sass
 
 React-router-dom, MIT, https://www.npmjs.com/package/react-router-dom
@@ -28,7 +28,7 @@ Typescript, Apache-2.0, https://www.npmjs.com/package/typescript
 Lodash.range, MIT, https://www.npmjs.com/package/lodash.range
 
 
-# Бек:
+# Бэкенд:
 Nodejs, https://nodejs.org/en
 
 Express, MIT, https://www.npmjs.com/package/express
