@@ -1,0 +1,35 @@
+@import "../../../assets/styles/colors.scss";
+.sort {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-start;
+    li {
+        padding: 10px 15px;
+        background-color: white;
+        list-style-type: none;
+        color: white;
+        cursor: pointer;
+        border: 1px solid gray;
+        font-weight: 600;
+        color: $main;
+        transition: 0.3s;
+        border-radius: 3px;
+
+        &.active {
+            background-color: $main;
+            color: white;
+        }
+
+        &:hover {
+            transform: translateY(1px);
+            transition: 0.3s;
+        }
+
+        display: flex;
+        align-items: center;
+
+        svg {
+            margin-right: 7px;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+@import "../../../assets/styles/colors.scss";
+
+.pagination {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    margin-top: 20px;
+    li {
+        margin-right: 10px;
+        text-align: center;
+        line-height: 40px;
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: white;
+        border: 1px solid $main;
+        color: $main;
+        font-weight: 700;
+        cursor: pointer;
+        &.active {
+            background-color: $main;
+            color: white;
+        }
+
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+
+    @media (max-width: 768px) {
+        justify-content: center;
+    }
+}
