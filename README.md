@@ -25,6 +25,8 @@ Axios, MIT, https://www.npmjs.com/package/axios
 
 Typescript, Apache-2.0, https://www.npmjs.com/package/typescript
 
+Lodash.range, MIT, https://www.npmjs.com/package/lodash.range
+
 
 # Бек:
 Nodejs, https://nodejs.org/en
