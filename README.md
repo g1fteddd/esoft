@@ -1,3 +1,19 @@
+# Инструкция:
+```
+cd client
+npm i
+cd ..
+cd server
+npm i
+Создать бд на postgresql
+Отредактировать строку подключения в db/knexfile.js
+npm run migrate
+Загрузить данные в бд (cd utils, node insertStartData.js, ctrl + c)
+
+запустить на беке и фронте:
+npm start
+```
+
 # Фронт:
 Sass, MIT, https://www.npmjs.com/package/sass
 
